@@ -6,7 +6,10 @@ print(student_scores)
 # 🚨 Don't change the code above 👆
 
 #Write your code below this row 👇
+score=0
+for num in student_scores:
 
-
-
+  if num >score:
+    score =num
+print(f"The highest score in the class is: {score}")
 
