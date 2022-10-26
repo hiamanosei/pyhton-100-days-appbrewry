@@ -13,3 +13,11 @@ word_list = ["aardvark", "baboon", "camel"]
 
 chosen_word = random.choice(word_list)
 print(chosen_word)
+guess =input("What is your guessed letter").lower()
+
+for num in chosen_word:
+    if guess == num:
+        print("Right")
+    else:
+        print("Wrong")
+
