@@ -7,7 +7,10 @@ operand = {
 }
 # value1 = float(input("first digit"))
 # value2 = float(input("Second digit"))
-# sign = input("What is the operator +,-,*,/")
+# sign = input("What is the operator")
+for key in operand:
+    print(f"{key}")
+
 def calc(value1,value2,sign):
     pass
 
